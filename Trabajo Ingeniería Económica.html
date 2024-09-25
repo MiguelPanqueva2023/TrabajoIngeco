@@ -1,0 +1,420 @@
+<HTML>
+<HEAD>
+  <TITLE>Trabajo Ingeniería Económica.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Sebastian Villalba, Mapa Conceptual, cmap, CmapTools, IHMC, Trabajo Ingeniería Económica,  Anualidad Diferida,  Presentado Por: 20202020008 - Nicolás David Sabogal Velásquez 20201020174 - Miguel Angel Panqueva Pulido 20202020042 - Pablo Andres Perez Ipia 20201020066 - Juan Sebastian Villalba Roa,  R o Cuota de la anualidad,  Valor futuro,  5,  Valor Inicial,  Interés Compuesto,  Valor presente,  2,  Debe estar en el mismoperiodo de tiempo en el que seefectua cada cuota,  6,  Periodo de tiempo,  1,  4,  3">
+  <meta NAME = "DESCRIPTION"        CONTENT = "Este Cmap, tiene información relacionada con: Trabajo Ingeniería Económica, R o Cuota de la anualidad 6, Interés Compuesto ???? Debe estar en el mismo periodo de tiempo en el que se efectua cada cuota, Valor presente Usando fórmula anualidad vencida, 2 1 Periodo de tiempo 3, Valor presente Usando fórmula anualidad anticipada, Debe estar en el mismo periodo de tiempo en el que se efectua cada cuota Si pasamos de efectiva menor a efectiva mayor, 4 R o Cuota de la anualidad, Valor futuro Usando la formula para anualidad vencida, R o Cuota de la anualidad Usando la fórmula para anualidad anticipada, R o Cuota de la anualidad Usando la fórmula para anualidad vencida, 5 6, Valor presente 2, Debe estar en el mismo periodo de tiempo en el que se efectua cada cuota Si pasamos de efectiva mayor a efectiva menor, 4 5, Valor presente Usando la fórmula de Valor Futuro, 3 4, Valor Inicial 1, 6 Valor futuro, 3 R o Cuota de la anualidad, 5 R o Cuota de la anualidad">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+Este Cmap, tiene información relacionada con: Trabajo Ingeniería Económica, R o Cuota de la anualidad 6, Interés Compuesto ???? Debe estar en el mismo periodo de tiempo en el que se efectua cada cuota, Valor presente Usando fórmula anualidad vencida, 2 1 Periodo de tiempo 3, Valor presente Usando fórmula anualidad anticipada, Debe estar en el mismo periodo de tiempo en el que se efectua cada cuota Si pasamos de efectiva menor a efectiva mayor, 4 R o Cuota de la anualidad, Valor futuro Usando la formula para anualidad vencida, R o Cuota de la anualidad Usando la fórmula para anualidad anticipada, R o Cuota de la anualidad Usando la fórmula para anualidad vencida, 5 6, Valor presente 2, Debe estar en el mismo periodo de tiempo en el que se efectua cada cuota Si pasamos de efectiva mayor a efectiva menor, 4 5, Valor presente Usando la fórmula de Valor Futuro, 3 4, Valor Inicial 1, 6 Valor futuro, 3 R o Cuota de la anualidad, 5 R o Cuota de la anualidad
+
+</noscript>
+
+<map name="Trabajo Ingeniería Económica.html">
+  <area shape="rect"
+        href="20S3NSNMQIWBSHKGI1PGItextIhtml"
+        onClick="popUpEvt(event,'20S3NSNMQIWBSHKGI1PGItextIhtml'); return false;"
+        coords="807,50,825,68">
+  <area shape="rect"
+        href="20S3VLMH9I17TDKH8I1P6Iimage"
+        onClick="popUpEvt(event,'20S3VLMH9I17TDKH8I1P6Iimage'); return false;"
+        coords="813,184,831,202">
+  <area shape="rect"
+        href="20S3R9V57I1PP75K2I2ZFIimage"
+        onClick="popUpEvt(event,'20S3R9V57I1PP75K2I2ZFIimage'); return false;"
+        coords="712,802,730,820">
+  <area shape="rect"
+        href="20S3S6HGMI1FWQ85JI3FRIimage"
+        onClick="popUpEvt(event,'20S3S6HGMI1FWQ85JI3FRIimage'); return false;"
+        coords="1131,198,1149,216">
+  <area shape="rect"
+        href="20S3VPZFVI1TT6DRZI33CIimage"
+        onClick="popUpEvt(event,'20S3VPZFVI1TT6DRZI33CIimage'); return false;"
+        coords="1145,706,1163,724">
+  <area shape="rect"
+        href="20S3VVM9HI1GJQLMZI418Iimage"
+        onClick="popUpEvt(event,'20S3VVM9HI1GJQLMZI418Iimage'); return false;"
+        coords="1461,702,1479,720">
+  <area shape="rect"
+        href="20S3QV93VITK1S32I81MIimage"
+        onClick="popUpEvt(event,'20S3QV93VITK1S32I81MIimage'); return false;"
+        coords="191,800,209,818">
+  <area shape="rect"
+        href="20S3VKDMRI108TVVGI1B9Iimage"
+        onClick="popUpEvt(event,'20S3VKDMRI108TVVGI1B9Iimage'); return false;"
+        coords="498,165,516,183">
+  <area shape="rect"
+        href="20S3S5CPTI147RC00I358Iimage"
+        onClick="popUpEvt(event,'20S3S5CPTI147RC00I358Iimage'); return false;"
+        coords="155,154,173,172">
+  <area shape="rect"
+        href="20S3S7YNLI1P8HG7FI3RNIimage"
+        onClick="popUpEvt(event,'20S3S7YNLI1P8HG7FI3RNIimage'); return false;"
+        coords="1448,193,1466,211">
+  <area shape="rect"
+        href="20S3NT9VKI290BML3I1SKItextIhtml"
+        onClick="popUpEvt(event,'20S3NT9VKI290BML3I1SKItextIhtml'); return false;"
+        coords="794,404,812,422">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#Trabajo Ingeniería Económica.html"
+             SRC="Trabajo Ingeniería Económica.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="20S3NSNMQIWBSHKGI1PGItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Plantilla Anualidad Diferida.xlsx "TITLE="">
+      Plantilla Anualidad Diferida
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3VLMH9I17TDKH8I1P6Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="VP Anticipado.png "TITLE="">
+      VP Anticipado
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3R9V57I1PP75K2I2ZFIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      Interes menor: Not Found
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3S6HGMI1FWQ85JI3FRIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="VF Vencido.png "TITLE="">
+      VF Vencido
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3VPZFVI1TT6DRZI33CIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="R.png "TITLE="">
+      R
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3VVM9HI1GJQLMZI418Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="R Anticipada.png "TITLE="">
+      R Anticipada
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3QV93VITK1S32I81MIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Interes mayor.png "TITLE="">
+      Interes mayor
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3VKDMRI108TVVGI1B9Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="VP Vencido.png "TITLE="">
+      VP Vencido
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3S5CPTI147RC00I358Iimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Interes mayor.png "TITLE="">
+      Interes mayor
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3S7YNLI1P8HG7FI3RNIimage" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="VF Anticipado.png "TITLE="">
+      VF Anticipado
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="20S3NT9VKI290BML3I1SKItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="Presentacion Anualidades Diferidas.pptx "TITLE="">
+      Presentacion Anualidades Diferidas
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
